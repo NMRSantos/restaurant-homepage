@@ -8,21 +8,22 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="links">
                 <li>Home</li>
                 <li>Sobre</li>
                 <li>Contactos</li>
             </ul>
         </nav>
     </header>
+
     <div id="content">
         <div class="heading-container">
-            <div class="heading">
+
                 <h1 class="restaurant-name">Restaurente Portas Verdes</h1>
-            </div>
+
         </div>
         <div class="review-container">
-            <div class="review">
+
                 <p class="review-text">
                     O Portas Verdes tem o melhor cozido de carnide!
                     A atmosfera e o atendimento são cinco estrelas, com um ambiente super familiar!
@@ -31,29 +32,29 @@
                 <h3 class="review-submitter">
                     Sofia Abreu - Google
                 </h3>
-            </div>
+
         </div>
         <div class="info-hours-container">
-            <div class="info-hours">
+
                 <h3 class="hours">Horário</h3>
                 <p class="sunday">Segunda: 12h - 22h</p>
-                <p class="monday">Folga do pessoal</p>
+                <p class="monday">Terça: Folga do pessoal</p>
                 <p class="tuesday">Quarta: 12h - 22h</p>
                 <p class="wednesday">Quinta: 12h - 22h</p>
                 <p class="thursday">Sexta: 12h - 22h</p>
                 <p class="friday">Sábado: 12h - 22h</p>
                 <p class="saturday">Domingo: 12h - 22h</p>
-            </div>
+
         </div>
         <div class="info-location-container">
-            <div class="info-location">
+
                 <h3 class="location">Localização</h3>
                 <p class="adress">123 Rua de Carnide, Carnide, Lisboa</p>
-            </div>
+
         </div>
     </div>
     <div class="footer">
-        <div class="signature">
+
             <ul>
                 <li>
                     <p>website</p>
@@ -65,7 +66,92 @@
                     <p>nome</p>
                 </li>
             </ul>
-        </div>
+
     </div>
+    
+    <style>
+        body {
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        p {
+            font-size: 1.25rem;
+            margin: 0px;
+        }
+        h1 {
+            font-size: 1.50rem;
+        }
+        li {
+            font-size: 1.75rem;
+        }
+
+        .restaurant-name {
+            font-size: 4rem;
+        }
+        .links {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding: 10px 10%;
+            border: 1px black solid;
+            justify-content: space-between;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 20px;
+        }
+
+        .review-container {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px black solid;
+        }
+        .review-submitter {
+            align-self: flex-end;
+        }
+        .info-hours-container {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px black solid;
+        }
+        .info-hours-container > p {
+            padding: 10px 0;
+        }
+        .info-location-container {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px black solid;
+        }
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 5px 10%;
+        }
+        .footer > ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+    </style>
 </body>
 </html>
