@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 1.25rem;
+    margin: 0px;
+}
+h1 {
+    font-size: 1.50rem;
+}
+li {
+    font-size: 1.75rem;
+}
+.restaurant-name {
+    font-size: 4rem;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px 10%;
+    border: 1px black solid;
+    justify-content: space-between;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.review-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+.review-submitter {
+    align-self: flex-end;
+}
+.info-hours-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+.info-hours-container > p {
+    padding: 10px 0;
+}
+.info-location-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px 10%;
+}
+.footer > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
