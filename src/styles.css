@@ -13,6 +13,9 @@ h1 {
 li {
     font-size: 1.75rem;
 }
+nav ul li:hover {
+    cursor: pointer;
+}
 .restaurant-name {
     font-size: 4rem;
 }
