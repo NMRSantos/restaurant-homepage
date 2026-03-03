@@ -1,5 +1,6 @@
 import {loadHome} from "./home.js";
 import {loadMenu} from "./menu.js";
+import {loadContacts} from "./contacts.js";
 
 export const content = document.getElementById("content");
 
@@ -20,7 +21,7 @@ document.querySelector(".menu").addEventListener("click", function () {
 
 document.querySelector(".contacts").addEventListener("click", function () {
     clearPage();
-    
+    loadContacts();
 });
 
 loadHome()

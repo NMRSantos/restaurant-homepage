@@ -1,5 +1,5 @@
 export function loadMenu() {
-        const content = document.getElementById("content");
+    const content = document.getElementById("content");
 
     const headingContainer = document.createElement("div");
     headingContainer.className = "heading-container";
