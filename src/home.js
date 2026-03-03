@@ -6,7 +6,7 @@ export let loadHome = () => {
     const headingContainer = document.createElement("div");
     headingContainer.className = "heading-container";
     const restaurantName = document.createElement("h1");
-    restaurantName.className = "restaurant-name";
+    restaurantName.className = "heading-name";
     
     restaurantName.innerText = "Restaurante Portas Verdes";
     
@@ -18,7 +18,7 @@ export let loadHome = () => {
     reviewContainer.className = "review-container";
     const reviewText = document.createElement("p");
     reviewText.className = "review-text";
-    const reviewSubmitter = document.createElement("h3");
+    const reviewSubmitter = document.createElement("h4");
     reviewSubmitter.className = "review-submitter";
     
     reviewText.innerText = "O Portas Verdes tem o melhor cozido de Carnide!\

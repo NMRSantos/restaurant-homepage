@@ -18,4 +18,9 @@ document.querySelector(".menu").addEventListener("click", function () {
     loadMenu();
 });
 
+document.querySelector(".contacts").addEventListener("click", function () {
+    clearPage();
+    
+});
+
 loadHome()
